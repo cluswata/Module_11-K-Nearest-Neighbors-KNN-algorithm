@@ -55,5 +55,6 @@ Here are some graphs related to the study:
 ![corr](graphs/corr.png)
 ![scatter_plot](graphs/scatter_plot.png)
 ![class_report](graphs/class_report.png)
+![prediction](graphs/prediction.png)
 
 You can also [view the graphs here](graphs/).

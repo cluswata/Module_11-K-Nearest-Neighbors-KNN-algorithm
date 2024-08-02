@@ -46,3 +46,14 @@ The confusion matrix provides a tabular representation of predicted vs. actual c
 * ***Accuracy:*** The model correctly classified all instances in the test set (38 out of 38), resulting in an accuracy of 100%. Macro avg and Weighted avg: Both metrics also show perfect scores (1.00) across all classes, indicating that the model's performance is consistent and excellent across all classes.
 
 ***Conclusion:*** The KNN model exhibits outstanding performance on the test dataset, achieving perfect accuracy and classification metrics. This suggests that the model is well-suited for the multi-category classification task on the Iris dataset, with no errors in prediction across the three classes (setosa, versicolor, virginica).
+
+## Graphs
+
+Here are some graphs related to the study:
+
+![bar](graphs/bar.png)
+![corr](graphs/corr.png)
+![scatter_plot](graphs/scatter_plot.png)
+![class_report](graphs/class_report.png)
+
+You can also [view the graphs here](graphs/).

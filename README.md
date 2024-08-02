@@ -13,10 +13,10 @@ Botanists require reliable methods to differentiate between species of flowers. 
 * ***Attributes:*** Four numerical attributes and a categorical target variable (species).
 
 ***Data Preparation:***
-***Data Cleaning:*** Addressed missing values and removed duplicated records. 
-***Feature Selection:*** All four attributes were deemed relevant for classification. 
-***Data Transformation:*** Categorical variables (species) were encoded into numerical labels. 
-***Data Split:*** The dataset was split into training (75%) and testing (25%) sets after shuffling. 
+***Data Cleaning:*** Addressed missing values and removed duplicated records. <br>
+***Feature Selection:*** All four attributes were deemed relevant for classification. <br>
+***Data Transformation:*** Categorical variables (species) were encoded into numerical labels. <br>
+***Data Split:*** The dataset was split into training (75%) and testing (25%) sets after shuffling. <br>
 ***Visualizations:*** Utilized pair plots for feature exploration, and confusion matrix for model understanding.
 
 ***Modeling:***
@@ -39,7 +39,7 @@ The confusion matrix provides a tabular representation of predicted vs. actual c
 ***Classification Report:*** 
 * ***Precision:*** Indicates the proportion of true positive predictions out of all positive predictions made.
 * ***Recall:*** Indicates the proportion of true positive predictions out of all actual positives.
-* ***F1-score:*** Harmonic mean of precision and recall, providing a balance between them.
+* ***F1-score:*** Harmonic mean of precision and recall, providing a balance between them. <br>
 ***Support:*** Number of instances for each class in the test set.
 
 ***Interpretation:*** Precision, Recall, and F1-score: All metrics are perfect (1.00) for each class, indicating that the model achieved flawless precision, recall, and F1-score for each class. 

@@ -12,12 +12,12 @@ Botanists require reliable methods to differentiate between species of flowers. 
 ***Dataset:*** The Iris dataset includes measurements (sepal length, sepal width, petal length, petal width) of three species of iris flowers. 
 * ***Attributes:*** Four numerical attributes and a categorical target variable (species).
 
-***Data Preparation:***
-***Data Cleaning:*** Addressed missing values and removed duplicated records. <br>
-***Feature Selection:*** All four attributes were deemed relevant for classification. <br>
-***Data Transformation:*** Categorical variables (species) were encoded into numerical labels. <br>
-***Data Split:*** The dataset was split into training (75%) and testing (25%) sets after shuffling. <br>
-***Visualizations:*** Utilized pair plots for feature exploration, and confusion matrix for model understanding.
+***Data Preparation:*** <br>
+* ***Data Cleaning:*** Addressed missing values and removed duplicated records. <br>
+* ***Feature Selection:*** All four attributes were deemed relevant for classification. <br>
+* ***Data Transformation:*** Categorical variables (species) were encoded into numerical labels. <br>
+* ***Data Split:*** The dataset was split into training (75%) and testing (25%) sets after shuffling. <br>
+* ***Visualizations:*** Utilized pair plots for feature exploration, and confusion matrix for model understanding.
 
 ***Modeling:***
 * ***Technique:*** Employed the K Nearest Neighbors (KNN) algorithm for classification. 
@@ -37,10 +37,10 @@ Accuracy measures the proportion of correctly predicted instances (both true pos
 The confusion matrix provides a tabular representation of predicted vs. actual classifications. The rows represent the actual classes (setosa, versicolor, virginica), while columns represent the predicted classes. The diagonal elements (from top-left to bottom-right) represent the number of correctly classified instances for each class while the off-diagonal elements represent misclassifications. In this case: setosa: All 15 instances in the test set were correctly classified as setosa. versicolor: All 11 instances in the test set were correctly classified as versicolor. virginica: All 12 instances in the test setwere correctly classified as virginica.
 
 ***Classification Report:*** 
-* ***Precision:*** Indicates the proportion of true positive predictions out of all positive predictions made.
-* ***Recall:*** Indicates the proportion of true positive predictions out of all actual positives.
+* ***Precision:*** Indicates the proportion of true positive predictions out of all positive predictions made.<br>
+* ***Recall:*** Indicates the proportion of true positive predictions out of all actual positives.<br>
 * ***F1-score:*** Harmonic mean of precision and recall, providing a balance between them. <br>
-***Support:*** Number of instances for each class in the test set.
+* ***Support:*** Number of instances for each class in the test set.
 
 ***Interpretation:*** Precision, Recall, and F1-score: All metrics are perfect (1.00) for each class, indicating that the model achieved flawless precision, recall, and F1-score for each class. 
 * ***Accuracy:*** The model correctly classified all instances in the test set (38 out of 38), resulting in an accuracy of 100%. Macro avg and Weighted avg: Both metrics also show perfect scores (1.00) across all classes, indicating that the model's performance is consistent and excellent across all classes.
